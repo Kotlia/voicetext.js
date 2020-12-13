@@ -22,11 +22,24 @@
 
 ```sh
 yarn install
+(depricated) npm install
 ```
 
 ## Usage
 
 Get your API key [here](https://cloud.voicetext.jp/webapi/api_keys/new)
+
+### Install
+Install globally
+```sh
+yarn global add voicetext.js
+(depricated) npm install -g voicetext.js
+```
+As a dependency
+```sh
+yarn add voicetext.js
+(depricated) npm install -D voicetext.js
+```
 
 ```javascript
 import VoiceText, { Speaker, Emotion, Format } from 'voicetext.js'
