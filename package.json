@@ -1,6 +1,6 @@
 {
   "name": "voicetext.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./src/index.js",
   "type": "module",
   "repository": "https://github.com/Kotlia/voicetext.js.git",
