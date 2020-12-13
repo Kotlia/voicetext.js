@@ -95,20 +95,20 @@ export default class VoiceText {
                     url += `.${this.format}`
                 }
                 url += `"`
-                if (this.emotion) {
-                    url += `-d "emotion=${this.emotion}"`
-                }
-                if (this.emotion_level) {
-                    url += `-d "emotion_level=${this.emotion_level}"`
-                }
-                if (this.pitch) {
-                    url += `-d "pitch=${this.pitch}"`
-                }
-                if (this.speed) {
-                    url += `-d "speed=${this.speed}"`
-                }
-                exec(url)
             }
+            if (this.emotion) {
+                url += `-d "emotion=${this.emotion}"`
+            }
+            if (this.emotion_level) {
+                url += `-d "emotion_level=${this.emotion_level}"`
+            }
+            if (this.pitch) {
+                url += `-d "pitch=${this.pitch}"`
+            }
+            if (this.speed) {
+                url += `-d "speed=${this.speed}"`
+            }
+            exec(url)
         }
     }
 }
