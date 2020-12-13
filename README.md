@@ -16,7 +16,7 @@
 
 > VoiceText.js is a API library to easily convert text into a voice.
 
-### 🏠 [Homepage](voicetext.ml)
+### 📝 [Docs](https://voicetext-js.web.app/)
 
 ## Install
 
@@ -25,6 +25,8 @@ yarn install
 ```
 
 ## Usage
+
+Get your API key [here](https://cloud.voicetext.jp/webapi/api_keys/new)
 
 ```javascript
 import VoiceText, { Speaker, Emotion, Format } from 'voicetext.js'
