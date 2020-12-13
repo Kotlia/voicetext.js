@@ -20,8 +20,6 @@
 
 ## Install
 
-[NPM](https://www.npmjs.com/package/voicetext.js)
-
 ```sh
 yarn install
 (depricated) npm install
