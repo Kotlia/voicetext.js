@@ -3,7 +3,7 @@
   <a href="https://www.npmjs.com/package/voicetext.js" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/voicetext.js.svg">
   </a>
-  <a href="voicetext.ml" target="_blank">
+  <a href="http://voicetext.ml" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="#" target="_blank">
@@ -24,17 +24,23 @@
 yarn install
 ```
 
+## Usage
+
+```javascript:ES6
+import VoiceText, { Speaker, Emotion, Format } from 'voicetext.js'
+
+new VoiceText(process.env.API_KEY)
+  .setText('Hello, world!')
+  .setSpeaker(Speaker.SHOW)
+  .setFileName("./helloworld")
+  .setFileFormat(Format.MP3)
+  .fetch()
+```
+
 ## Author
 
-👤 **Shun Ueda <62182668+Kotlia@users.noreply.github.com>**
+👤 **Shun Ueda (Kotlia)**
 
 * Website: shunueda.ml
-* Twitter: [@Kotlia](https://twitter.com/Kotlia)
+* Twitter: [@_Kotlia](https://twitter.com/Kotlia)
 * Github: [@Kotlia](https://github.com/Kotlia)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
