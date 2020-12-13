@@ -1,0 +1,14 @@
+{
+  "name": "voicetext.js",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "type": "module",
+  "repository": "https://github.com/Kotlia/voicetext.js.git",
+  "author": "Shun Ueda <62182668+Kotlia@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "better-docs": "^2.3.2",
+    "child_process": "^1.0.2",
+    "jsdoc": "^3.6.6"
+  }
+}
