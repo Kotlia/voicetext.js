@@ -26,7 +26,7 @@ yarn install
 
 ## Usage
 
-```javascript:ES6
+```javascript
 import VoiceText, { Speaker, Emotion, Format } from 'voicetext.js'
 
 new VoiceText(process.env.API_KEY)
