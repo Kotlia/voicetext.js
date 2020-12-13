@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to voicetext.js 👋</h1>
+<h1 align="center">VoiceText.js</h1>
 <p>
   <a href="https://www.npmjs.com/package/voicetext.js" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/voicetext.js.svg">
