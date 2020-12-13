@@ -7,8 +7,6 @@
   "author": "Shun Ueda <62182668+Kotlia@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "better-docs": "^2.3.2",
-    "child_process": "^1.0.2",
-    "jsdoc": "^3.6.6"
+    "child_process": "^1.0.2"
   }
 }
