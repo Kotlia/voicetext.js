@@ -14,11 +14,13 @@
   </a>
 </p>
 
-> VoiceText.js is a API library to easily convert text into a voice.
+> VoiceText.js is an API library to easily convert text into a voice.
 
 ### 📝 [Docs](https://voicetext-js.web.app/)
 
 ## Install
+
+[NPM](https://www.npmjs.com/package/voicetext.js)
 
 ```sh
 yarn install
