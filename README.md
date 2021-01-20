@@ -56,6 +56,6 @@ new VoiceText(process.env.API_KEY)
 
 👤 **Shun Ueda (Kotlia)**
 
-* Website: shunueda.ml
-* Twitter: [@_Kotlia](https://twitter.com/Kotlia)
+* Website: kotlia.me
+* Twitter: [@Kotlia_JS](https://twitter.com/Kotlia_JS)
 * Github: [@Kotlia](https://github.com/Kotlia)
